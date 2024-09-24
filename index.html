@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura no Espaço Sideral</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/istockphoto-1362967310-2048x2048.jpg" alt="">
+            <p>Um dia, enquanto explorava a antiga estação espacial de pesquisa, você encontra um diário de um astronauta perdido. No diário, ele fala sobre um planeta desconhecido, repleto de mistérios e riquezas. Decidido a descobrir mais, você se prepara para a aventura!</p>
+            <button class="btn-proximo" data-proximo="1">Viajar para a Nebulosa Andromeda</button>
+            <button class="btn-proximo" data-proximo="2">Investigar a Lua de Júpiter</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na Nebulosa Andromeda, navegando pelas estrelas até encontrar um asteroide misterioso. O diário menciona que a primeira pista está escondida aqui.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no asteroide</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a Terra</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Lua de Júpiter, você descobre uma antiga base de pesquisa. O diário menciona que a próxima pista está em um dos laboratórios abandonados. Por qual laboratório você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o laboratório de biologia</button>
+            <button class="btn-proximo" data-proximo="6">Investigar o laboratório de tecnologia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No asteroide, você encontra uma antiga cápsula espacial com um mapa estelar. Ele aponta que a próxima pista está na Galáxia de Orion.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Galáxia de Orion</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/space-7980556_1280.webp" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é arriscada demais e volta para casa, mas sempre se pergunta o que teria descoberto nas estrelas.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No laboratório de biologia, você encontra um cristal raro que emite sinais estranhos. O cristal leva você a um novo destino: a Galáxia de Orion.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Galáxia de Orion</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Investigando o laboratório de tecnologia, você ativa um antigo dispositivo que revela a localização de uma estação espacial perdida.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar e explorar o laboratório de biologia</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na Galáxia de Orion, você encontra uma estação espacial abandonada. Há duas rotas a seguir.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo túnel esquerdo</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo túnel direito</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao laboratório de biologia, você decide seguir as pistas do cristal raro e logo se encontra novamente na Galáxia de Orion.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Galáxia de Orion</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O túnel esquerdo leva você a uma sala cheia de tecnologia antiga e um holograma que revela a entrada para um planeta desconhecido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o planeta desconhecido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O túnel direito leva a um laboratório em ruínas. Apesar das descobertas, não há sinais do planeta desconhecido aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro túnel</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo0.webp" alt="descobrindo um planeta maravilhoso e desconhecido">
+            <p>Dentro do planeta, você descobre tecnologias avançadas e seres incríveis, decidindo se dedicar a entender e proteger este novo mundo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o túnel esquerdo, você finalmente descobre a sala com o holograma que leva ao planeta desconhecido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o planeta desconhecido</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
